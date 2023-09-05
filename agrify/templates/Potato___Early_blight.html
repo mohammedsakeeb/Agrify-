@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block nav %}
+<li><a href="index.html">Home</a></li>
+<li><a href="CropRecommendation.html">Crop</a></li>
+<li><a href="FertilizerRecommendation.html">Fertilizer</a></li>
+<li><a href="PesticideRecommendation.html" >Pesticide</a></li>
+<li><a href="TomatoDetection.html" class="active">Disease</a></li>
+
+{% endblock %}
+
+{% block body %}
+<br /><br />
+<h2 style="text-align: center; margin: 0px; color: black">
+    <b>Identified Disease: <i>Potato___Early_blight</i></b>
+</h2>
+
+<img style="border-radius: 5%;margin-left:5%; height:300px; width:300px;"
+                             class="img-fluid" src="static\img\0b76f650-27cf-4b62-b3ad-c97d81e0db0c___JR_HL 8554.JPG" alt="prudent">
+{% endblock %}

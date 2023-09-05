@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block nav %}
+<li><a href="index.html">Home</a></li>
+<li><a href="CropRecommendation.html">Crop</a></li>
+<li><a href="FertilizerRecommendation.html">Fertilizer</a></li>
+<li><a href="PesticideRecommendation.html" >Pesticide</a></li>
+<li><a href="DiseaseDetection.html" class="active">Disease</a></li>
+
+{% endblock %}
+
+{% block body %}
+<br /><br />
+<h2 style="text-align: center; margin: 0px; color: black">
+    <b>Identified Disease: <i>Tomato_healthy</i></b>
+</h2>
+
+<img style="border-radius: 5%;margin-left:5%; height:300px; width:300px;"
+                             class="img-fluid" src="static\img\0c3eaf2d-8203-441d-9248-1c64e00b5b8b___RS_HL 0018.JPG" alt="prudent">
+{% endblock %}
